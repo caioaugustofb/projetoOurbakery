@@ -26,6 +26,25 @@ header{
     padding: 15px 2% 30px 2%;
 }
 
+header nav{
+    float: right;
+    padding: 40px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    float: left;
+    padding: 0 20px;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
 .logo-1{
     float: left;
     width: 100px;
@@ -128,8 +147,12 @@ section.cover-form{
     color: #612702;
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 520px){
     header{
+        text-align: center;
+    }
+
+    header nav li{
         text-align: center;
     }
     .logo-1{
